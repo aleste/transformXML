@@ -1,0 +1,254 @@
+<?xml-stylesheet type="text/xsl" href="http://www.test.arba.gov.ar/Recursos/XSL/TitulosEjecutivos/titulo_v1.0.xslt"?>
+<?xml-stylesheet id="fo" type="text/xsl" href="http://www.test.arba.gov.ar/Recursos/XSL/TitulosEjecutivos/titulo_FO_v1.0.xslt"?>
+<ds:Signature id="Signature-1" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo Id="SignedInfo">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedDataObject-Ref-1" URI="#Object-1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>dcosB3iI/klBwepTQu5klarP+sQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="DocumentSignatureValue-1">
+EBWTkEkMzuUP+zmsA555oGLuAzV1hBO63F67qyy+y4mKRGqLq0Us4hbwPL/TLm5UqXIjFbIrxnjy
+6cZCuiOfSfdQ6plMEGVhoeuVzRJ6jykJer9NezTJWrItqhelcBgEIMoSyY+lmfQKPU3AtVhxSpGc
+xX5ge6TUE9on/MQutI0=
+</ds:SignatureValue>
+<ds:KeyInfo Id="KeyInfo">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHHTCCBQWgAwIBAgIBQDANBgkqhkiG9w0BAQsFADCB/zEbMBkGCgmSJomT8ixkARkWC2FyYmEu
+Z292LmFyMQswCQYDVQQGEwJBUjERMA8GA1UEBwwITGEgUGxhdGExFTATBgNVBAgMDEJ1ZW5vcyBB
+aXJlczFGMEQGA1UECgw9QVJCQSAtIEFnZW5jaWEgZGUgUmVjYXVkYWNpb24gZGUgbGEgUHJvdmlu
+Y2lhIGRlIEJ1ZW5vcyBBaXJlczEZMBcGA1UECwwQU2VndXJpZGFkIExvZ2ljYTEmMCQGA1UEAwwd
+QVJCQSAtIEF1dG9yaWRhZCBDZXJ0aWZpY2FudGUxHjAcBgkqhkiG9w0BCQEWD3BraUBhcmJhLmdv
+di5hcjAeFw0xNDAxMjExNDQxMDhaFw0xODEyMjYxNDQxMDhaMEYxCzAJBgNVBAYTAkFSMQ0wCwYD
+VQQKDARBUkJBMQ4wDAYDVQQLDAVVc2VyczEYMBYGA1UEAwwPUHJ1ZWJhIFNpc3RlbWFzMIGfMA0G
+CSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPTYPHVJ1aDVtPRN7jnGuT8pJYI5FDW9eepUXLt7lqGklM
+5RWxfpx9xMODUjcbQD6iH8Rlbbm92F+JXRcFtDJgsB8b3ExpSb0nVsbyiE9f+u6rFvYDIONb5sS2
+GrLb+rMFnf/lU4CU/Y/+XsyE3/OKJR7qeMXSNf/SKqn3REcJ0wIDAQABo4IC3jCCAtowCQYDVR0T
+BAIwADARBglghkgBhvhCAQEEBAMCBaAwCwYDVR0PBAQDAgXgMCkGA1UdJQQiMCAGCCsGAQUFBwMC
+BggrBgEFBQcDBAYKKwYBBAGCNxQCAjAnBglghkgBhvhCAQ0EGhYYVXNlciBDZXJ0aWZpY2F0ZSBv
+ZiBBUkJBMB0GA1UdDgQWBBQirYyYaQTNeFxyqXPSnToILQclqDCCATgGA1UdIwSCAS8wggErgBT/
+fURkbTALCXdmce5wfgDvnLROoaGCAQakggECMIH/MRswGQYKCZImiZPyLGQBGRYLYXJiYS5nb3Yu
+YXIxCzAJBgNVBAYTAkFSMREwDwYDVQQHDAhMYSBQbGF0YTEVMBMGA1UECAwMQnVlbm9zIEFpcmVz
+MUYwRAYDVQQKDD1BUkJBIC0gQWdlbmNpYSBkZSBSZWNhdWRhY2lvbiBkZSBsYSBQcm92aW5jaWEg
+ZGUgQnVlbm9zIEFpcmVzMRkwFwYDVQQLDBBTZWd1cmlkYWQgTG9naWNhMSYwJAYDVQQDDB1BUkJB
+IC0gQXV0b3JpZGFkIENlcnRpZmljYW50ZTEeMBwGCSqGSIb3DQEJARYPcGtpQGFyYmEuZ292LmFy
+ggkA1l05YZXi9tEwHQYDVR0RBBYwFIEScHJ1ZWJhQGFyYmEuZ292LmFyMCYGA1UdEgQfMB2BG3Nl
+Z3VyaWRhZGxvZ2ljYUBhcmJhLmdvdi5hcjA7BglghkgBhvhCAQQELhYsaHR0cDovL3BraS5hcmJh
+Lmdvdi5hci9wa2kvcHViL2NybC9jYWNybC5jcmwwOwYJYIZIAYb4QgEDBC4WLGh0dHA6Ly9wa2ku
+YXJiYS5nb3YuYXIvcGtpL3B1Yi9jcmwvY2FjcmwuY3JsMD0GA1UdHwQ2MDQwMqAwoC6GLGh0dHA6
+Ly9wa2kuYXJiYS5nb3YuYXIvcGtpL3B1Yi9jcmwvY2FjcmwuY3JsMA0GCSqGSIb3DQEBCwUAA4IC
+AQBQ0ehfet+76zhmKqfayW3+a9C5SEaBIXjfX5e4dgo+dG6M45znxmZlpNXePbCxyjM7FpNZpl7N
+JLn4eFsfP6eyCHILG6VZyZSiOvqtblHe7iY4avwXjJkPSxxldmDBCh2LfAN4oTdqevujwjH7GWIL
+f3EqkfVWo1pLi9pxv4VY+RmSMf/2aoVBXgs7UQCjO5TFp170ad13eEbCLwFjgtJkPjgm50Y7BYgS
+C+RHcKdp6+ixcA+VWFjA1gcw8VKWDjDJDB9hZ2xkDNlKYKqIqrk5yaSsCbXteknNGmhkMFaF4gtl
+sPXyqAsCRmP7EZgciohRc/3UQPzv0jDYY/PkwsGrBh8fw59vSuxfO4ocrea1rHLNhw+Q/pEnQZfN
+IQXHvbXsJhVxjFqCIMtWbAOQ6zqK7dfPlGW+kUSg5+FPlJET9cMmsN0TNQQvBTbLgPYKMblxi8qO
+B5Y2keSRoCSvXAjQKRsoBEJr2AyP/4/oZuPtxgJBrzUBxsNSBjXQVTRaZm5XctXjPjhyzfoOX1Gk
+2hrmMvdjMAXzfxI//rJjecj4HXz7cGeDBnTDdDFJsgNc3sHzijMN4/b9si15YTEM7i8PXVgrWrJ2
+PEYYDBKBjxyV2tUmRR6+nj75ZriXzfR+0+Miy7bEI9o34qAT8y765A95SXZGWN7mrG1ZvF54lAKY
+0g==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+z02Dx1SdWg1bT0Te45xrk/KSWCORQ1vXnqVFy7e5ahpJTOUVsX6cfcTDg1I3G0A+oh/EZW25vdhf
+iV0XBbQyYLAfG9xMaUm9J1bG8ohPX/ruqxb2AyDjW+bEthqy2/qzBZ3/5VOAlP2P/l7MhN/ziiUe
+6njF0jX/0iqp90RHCdM=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object id="Object-1"><titulo>
+  <id>715123000</id>
+  <nro_remito>115308</nro_remito>
+  <tipo_remito>D</tipo_remito>
+  <cant_titulos_en_remito>1</cant_titulos_en_remito>
+  <nro_orden>1</nro_orden>
+  <nro_titulo>715123</nro_titulo>
+  <clase_titulo>B</clase_titulo>
+  <nro_expediente>2306000200020002331</nro_expediente>
+  <codigo_impuesto>611</codigo_impuesto>
+  <codigo_caracter>3</codigo_caracter>
+  <cuit_titulo>20053770658</cuit_titulo>
+  <identificacion_impuesto>20053770658</identificacion_impuesto>
+  <nro_individual_complemento/>
+  <codigo_concepto>2</codigo_concepto>
+  <fecha_alta>2016-02-18</fecha_alta>
+  <tipo_titulo>P</tipo_titulo>
+  <fecha_liquidacion>2016-02-28</fecha_liquidacion>
+  <codigo_delegacion>710</codigo_delegacion>
+  <codigo_distrito>0</codigo_distrito>
+  <nro_resolucion_1>0</nro_resolucion_1>
+  <anio_resolucion_1>0</anio_resolucion_1>
+  <nro_resolucion_2>0</nro_resolucion_2>
+  <anio_resolucion_2>0</anio_resolucion_2>
+  <nro_operativo>0</nro_operativo>
+  <ley_aplicable>LEY 10.397 Y SUS MODIFICATORIAS</ley_aplicable>
+  <codigo_actividad_IIBB>0</codigo_actividad_IIBB>
+  <nro_liquidacion>0</nro_liquidacion>
+  <marca_IIBB/>
+  <nomenclatura_catastral/>
+  <nro_inscripcion_catastral/>
+  <caracteristica/>
+  <valuacion_fiscal>0</valuacion_fiscal>
+  <superficie>0</superficie>
+  <descripcion_sellos>CONTRATOS DE ARRENDAMIENTO CELEBRADOS LOS DIAS 28/09/200 Y 02/08/2010 ENTRE DE LA ROSA ROBERTO EDUARDO Y</descripcion_sellos>
+  <codigo_marca_auto/>
+  <descripcion_marca_auto/>
+  <anio_modelo_auto>0</anio_modelo_auto>
+  <descripcion_modelo_auto/>
+  <descripcion_marca_motor_auto/>
+  <descripcion_serie_motor_auto/>
+  <nro_motor_auto/>
+  <codigo_tipo_auto/>
+  <peso_auto>0</peso_auto>
+  <carga_auto>0</carga_auto>
+  <categoria_auto/>
+  <codigo_inciso_auto/>
+  <codigo_partido_auto>0</codigo_partido_auto>
+  <codigo_nacion_auto/>
+  <nombre_embarcacion/>
+  <codigo_matricula_embarcacion>          </codigo_matricula_embarcacion>
+  <eslora_embarcacion>0.00</eslora_embarcacion>
+  <manga_embarcacion>0.00</manga_embarcacion>
+  <puntal_embarcacion>0.00</puntal_embarcacion>
+  <fecha_construccion_embarcacion/>
+  <potencia_motor_embarcacion>0</potencia_motor_embarcacion>
+  <cantidad_motores_embarcacion>0</cantidad_motores_embarcacion>
+  <nro_motor_embarcacion/>
+  <descripcion_marca_embarcacion/>
+  <codigo_identificacion_embarcacion/>
+  <descripcion_arbola_embarcacion/>
+  <descripcion_modelo_motor_embarcacion/>
+  <tipo_motor_embarcacion/>
+  <codigo_actividad_agente>0</codigo_actividad_agente>
+  <impuesto_agente>0</impuesto_agente>
+  <tipo_regimen_agente/>
+  <tipo_multa_agente/>
+  <descripcion_actividad/>
+  <publicado_boletin_oficial/>
+  <tipo_proceso_concursal>0</tipo_proceso_concursal>
+  <nro_legajo_concursal>0</nro_legajo_concursal>
+  <nro_proceso_concursal>0</nro_proceso_concursal>
+  <clave_origen_caducidad/>
+  <nro_disposicion_normativa>31</nro_disposicion_normativa>
+  <anio_disposicion_normativa>2016</anio_disposicion_normativa>
+  <importe_subtotal_original>1155.500</importe_subtotal_original>
+  <importe_subtotal_intereses>2923.42</importe_subtotal_intereses>
+  <importe_subtotal>4078.92</importe_subtotal>
+  <importe_total>4078.92</importe_total>
+  <importe_total_letras>CUATRO MIL SETENTA Y OCHO CON NOVENTA Y DOS ----CENTAVOS ****************************************************</importe_total_letras>
+  <datos_de_impresion>
+    <documento_titular_impresion>C.I.         111</documento_titular_impresion>
+    <observaciones_contribuyente>CAMPAGNOLLE S.R.L..</observaciones_contribuyente>
+    <observaciones_impuesto/>
+    <descripcion_parte_1_impresion>CONTRATOS DE ARRENDAMIENTO CELEBRADOS LOS DIAS 28/09/200 Y 02/08/2010 ENTRE DE LA ROSA ROBERTO EDUARDO Y</descripcion_parte_1_impresion>
+    <descripcion_parte_2_impresion/>
+    <descripcion_alpie_impresion/>
+    <mensaje_concepto_deuda>CONCEPTO        FECH</mensaje_concepto_deuda>
+    <mensaje_recargo_reliquidacion/>
+    <leyenda_auxiliar_2_impresion/>
+    <leyenda_auxiliar_3_impresion/>
+  </datos_de_impresion>
+  <domicilioFiscal>
+    <calle>PRESIDENTE JUAN DOMINGO PERON</calle>
+    <nro>11</nro>
+    <piso/>
+    <depto/>
+    <localidad>AZUL</localidad>
+    <id_localidad>73</id_localidad>
+    <codigo_postal>7300</codigo_postal>
+    <id_provincia>2</id_provincia>
+    <provincia>BUENOS AIRES</provincia>
+  </domicilioFiscal>
+  <recargos_globales>
+    <porcentaje_art51>0</porcentaje_art51>
+    <monto_art51>0.00</monto_art51>
+    <leyenda_recargos/>
+  </recargos_globales>
+  <personas>
+    <cantidad_personas>1</cantidad_personas>
+    <persona>
+      <es_titular>T</es_titular>
+      <tipo_persona>F</tipo_persona>
+      <apellido>SUCESION DE DE LA ROSA</apellido>
+      <nombre>ROBERTO EDUARDO</nombre>
+      <tipo_personeria_juridica/>
+      <nro_personeria_juridica/>
+      <sexo>M</sexo>
+      <cuit>20053770658</cuit>
+      <tipo_documento>1</tipo_documento>
+      <nro_documento>00000111</nro_documento>
+      <nacionalidad/>
+      <nro_pasaporte/>
+      <fecha_nacimiento/>
+      <estado_civil>0</estado_civil>
+      <apellido_nombre_padres/>
+      <apellido_nombre_conyuge/>
+      <domicilios>
+        <cantidad_domicilios>1</cantidad_domicilios>
+        <domicilio>
+          <id_tipo_domicilio>2</id_tipo_domicilio>
+          <calle>PRESIDENTE JUAN DOMINGO PERON</calle>
+          <nro>11</nro>
+          <nro_complemento/>
+          <cuerpo/>
+          <sector/>
+          <torre/>
+          <manzana/>
+          <piso/>
+          <depto/>
+          <barrio/>
+          <localidad>BARRIO JOSE HERNANDEZ</localidad>
+          <id_localidad>1057</id_localidad>
+          <provincia>BUENOS AIRES</provincia>
+          <id_provincia>2</id_provincia>
+          <cpa/>
+          <codigo_postal>2700</codigo_postal>
+          <telefono>0</telefono>
+          <fax/>
+          <email/>
+        </domicilio>
+      </domicilios>
+    </persona>
+  </personas>
+  <deudas>
+    <cantidad_deudas>1</cantidad_deudas>
+    <deuda>
+      <tipo_deuda/>
+      <fecha_anio_cuota>0</fecha_anio_cuota>
+      <fecha_deuda>2009-10-19</fecha_deuda>
+      <fecha_saldo>2009-10-19</fecha_saldo>
+      <importe_deuda>1155.5000</importe_deuda>
+      <indice_actualizacion>3.530</indice_actualizacion>
+      <importe_total>4078.92</importe_total>
+      <importe_monto_intereses>2923.42</importe_monto_intereses>
+      <descripcion_deuda>CONTRATO</descripcion_deuda>
+      <semana_quincena/>
+      <contenido_linea_impresion>CONTRATO                                    19/10/2009                1.155,5000                      3,530                         2.923,42                 4.078,92</contenido_linea_impresion>
+    </deuda>
+  </deudas>
+  <multas>
+    <cantidad_multas>0</cantidad_multas>
+  </multas>
+  <plan_caduco>
+    <descripcion_global/>
+    <importe_global>0.00</importe_global>
+    <importe_deuda>0.00</importe_deuda>
+    <importe_total_pagos>0.00</importe_total_pagos>
+    <deudas_plan_caduco>
+      <cantidad_deudas>0</cantidad_deudas>
+    </deudas_plan_caduco>
+    <pagos_plan_caduco>
+      <cantidad_pagos>0</cantidad_pagos>
+    </pagos_plan_caduco>
+  </plan_caduco>
+</titulo></ds:Object></ds:Signature>

@@ -1,2 +1,9 @@
+{% block formulario %}
+{{ form_start(form) }}
+{{ form_widget(form) }}
+{{ form_end(form) }}
 <a href="{{ path('to_html') }}">Enviar a HTML</a>
-{# <a href="{{ path('to_pdf') }}">Enviar a PDF</a> #}
+<a href="{{ path('to_pdf') }}">Enviar a PDF</a> 
+{% endblock %}
+
+

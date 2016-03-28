@@ -6,6 +6,15 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Form\Extension\Core\Type\FileType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+
+
+use Symfony\Component\Process\Process;
+use Symfony\Component\Process\Exception\ProcessFailedException;
+
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+
 
 class DefaultController extends Controller
 {
@@ -16,9 +25,23 @@ class DefaultController extends Controller
     public function indexAction(Request $request)
     {
 
-        return $this->render('default/index.html.twig', [
-             'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
-         ]);    
+       
+        $form = $this->createFormBuilder()
+            ->add('datos', FileType::class, array('label' => 'XML (datos)'))
+            ->add('plantilla', FileType::class, array('label' => 'XSL (plantilla)'))
+            ->add('send', SubmitType::class)
+            ->getForm();
+
+        /*if ($request->getMethod() === 'POST') {
+            $form->handleRequest($request);
+            if ($form->isValid()) {
+                // data is an array with "name", "email", and "message" keys
+                $data = $form->getData();
+            }
+        }*/
+
+    
+        return $this->render('default/index.html.twig', ['form' => $form->createView()]);    
 
     }
 
@@ -40,28 +63,20 @@ class DefaultController extends Controller
     public function toPdfAction(Request $request)
     {
 
-        $engine  = $this->container->get('templating');
-        $content = $engine->render('default/html.html.php');
+        //Ejecuta Java class that convert XML-XSL into PDF.
+        $process = new Process('java -cp lib/*:. Reporte2');
+        $process->run();
 
-        return new Response(
-            $this->get('knp_snappy.pdf')->getOutputFromHtml($content, [
-                'lowquality'       => false,
-                'print-media-type' => false,
-                'disable-javascript' => false,
-                'encoding'         => 'ISO-8859-1',
-               /* 'page-size'        => 'A4',
-                'outline-depth'    => 8,*/
-                'orientation'      => 'Landscape',
-                /*'title'            => 'Titulo',                
-                'header-right'     =>'Pág. [page] de [toPage]',
-                'header-font-size' => 7                */
-                ]),
-            200,
-            array(
-                'Content-Type'        => 'application/pdf',
-                'Content-Disposition' => 'attachment; filename="reporte.pdf"'
-            )
-        );    
+        // executes after the command finishes
+        if (!$process->isSuccessful()) {
+            throw new ProcessFailedException($process);
+        }
+
+        echo $process->getOutput();
+
+        return new BinaryFileResponse('reporte.pdf');
+
+  
 
     }    
 

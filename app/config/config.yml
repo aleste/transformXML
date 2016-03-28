@@ -70,9 +70,9 @@ swiftmailer:
 knp_snappy:
     pdf:
         enabled:    true
-        binary:     %pdf_converter_path%
+        binary:     "%pdf_converter_path%"
         options:    []
     image:
         enabled:    true
-        binary:     %image_converter_path%
+        binary:     "%image_converter_path%"
         options:    [] 

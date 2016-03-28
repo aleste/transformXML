@@ -1,0 +1,463 @@
+<?xml-stylesheet type="text/xsl" href="http://www.test.arba.gov.ar/Recursos/XSL/TitulosEjecutivos/titulo_v1.0.xslt"?>
+<?xml-stylesheet id="fo" type="text/xsl" href="http://www.test.arba.gov.ar/Recursos/XSL/TitulosEjecutivos/titulo_FO_v1.0.xslt"?>
+<ds:Signature id="Signature-1" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo Id="SignedInfo">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedDataObject-Ref-1" URI="#Object-1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>RrkUDBglwekeI4TuKZJrqzUQtSg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="DocumentSignatureValue-1">
+AdlhZUlvmzcrugKsaBhN38445E7E7mUyi99W94UtQ7xobz9PJTYI+eswkvv6lAieM7nwR8DA+HlR
+IukzDrSWZRWi5OaJnvgxqDsTNeqI/PazcHQbp/KiSIFSm9ux8OYry4Sn2n0B7I4xlsIvnJUWMaSD
+sXul+thvLrirImeJqoQ=
+</ds:SignatureValue>
+<ds:KeyInfo Id="KeyInfo">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHHTCCBQWgAwIBAgIBQDANBgkqhkiG9w0BAQsFADCB/zEbMBkGCgmSJomT8ixkARkWC2FyYmEu
+Z292LmFyMQswCQYDVQQGEwJBUjERMA8GA1UEBwwITGEgUGxhdGExFTATBgNVBAgMDEJ1ZW5vcyBB
+aXJlczFGMEQGA1UECgw9QVJCQSAtIEFnZW5jaWEgZGUgUmVjYXVkYWNpb24gZGUgbGEgUHJvdmlu
+Y2lhIGRlIEJ1ZW5vcyBBaXJlczEZMBcGA1UECwwQU2VndXJpZGFkIExvZ2ljYTEmMCQGA1UEAwwd
+QVJCQSAtIEF1dG9yaWRhZCBDZXJ0aWZpY2FudGUxHjAcBgkqhkiG9w0BCQEWD3BraUBhcmJhLmdv
+di5hcjAeFw0xNDAxMjExNDQxMDhaFw0xODEyMjYxNDQxMDhaMEYxCzAJBgNVBAYTAkFSMQ0wCwYD
+VQQKDARBUkJBMQ4wDAYDVQQLDAVVc2VyczEYMBYGA1UEAwwPUHJ1ZWJhIFNpc3RlbWFzMIGfMA0G
+CSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPTYPHVJ1aDVtPRN7jnGuT8pJYI5FDW9eepUXLt7lqGklM
+5RWxfpx9xMODUjcbQD6iH8Rlbbm92F+JXRcFtDJgsB8b3ExpSb0nVsbyiE9f+u6rFvYDIONb5sS2
+GrLb+rMFnf/lU4CU/Y/+XsyE3/OKJR7qeMXSNf/SKqn3REcJ0wIDAQABo4IC3jCCAtowCQYDVR0T
+BAIwADARBglghkgBhvhCAQEEBAMCBaAwCwYDVR0PBAQDAgXgMCkGA1UdJQQiMCAGCCsGAQUFBwMC
+BggrBgEFBQcDBAYKKwYBBAGCNxQCAjAnBglghkgBhvhCAQ0EGhYYVXNlciBDZXJ0aWZpY2F0ZSBv
+ZiBBUkJBMB0GA1UdDgQWBBQirYyYaQTNeFxyqXPSnToILQclqDCCATgGA1UdIwSCAS8wggErgBT/
+fURkbTALCXdmce5wfgDvnLROoaGCAQakggECMIH/MRswGQYKCZImiZPyLGQBGRYLYXJiYS5nb3Yu
+YXIxCzAJBgNVBAYTAkFSMREwDwYDVQQHDAhMYSBQbGF0YTEVMBMGA1UECAwMQnVlbm9zIEFpcmVz
+MUYwRAYDVQQKDD1BUkJBIC0gQWdlbmNpYSBkZSBSZWNhdWRhY2lvbiBkZSBsYSBQcm92aW5jaWEg
+ZGUgQnVlbm9zIEFpcmVzMRkwFwYDVQQLDBBTZWd1cmlkYWQgTG9naWNhMSYwJAYDVQQDDB1BUkJB
+IC0gQXV0b3JpZGFkIENlcnRpZmljYW50ZTEeMBwGCSqGSIb3DQEJARYPcGtpQGFyYmEuZ292LmFy
+ggkA1l05YZXi9tEwHQYDVR0RBBYwFIEScHJ1ZWJhQGFyYmEuZ292LmFyMCYGA1UdEgQfMB2BG3Nl
+Z3VyaWRhZGxvZ2ljYUBhcmJhLmdvdi5hcjA7BglghkgBhvhCAQQELhYsaHR0cDovL3BraS5hcmJh
+Lmdvdi5hci9wa2kvcHViL2NybC9jYWNybC5jcmwwOwYJYIZIAYb4QgEDBC4WLGh0dHA6Ly9wa2ku
+YXJiYS5nb3YuYXIvcGtpL3B1Yi9jcmwvY2FjcmwuY3JsMD0GA1UdHwQ2MDQwMqAwoC6GLGh0dHA6
+Ly9wa2kuYXJiYS5nb3YuYXIvcGtpL3B1Yi9jcmwvY2FjcmwuY3JsMA0GCSqGSIb3DQEBCwUAA4IC
+AQBQ0ehfet+76zhmKqfayW3+a9C5SEaBIXjfX5e4dgo+dG6M45znxmZlpNXePbCxyjM7FpNZpl7N
+JLn4eFsfP6eyCHILG6VZyZSiOvqtblHe7iY4avwXjJkPSxxldmDBCh2LfAN4oTdqevujwjH7GWIL
+f3EqkfVWo1pLi9pxv4VY+RmSMf/2aoVBXgs7UQCjO5TFp170ad13eEbCLwFjgtJkPjgm50Y7BYgS
+C+RHcKdp6+ixcA+VWFjA1gcw8VKWDjDJDB9hZ2xkDNlKYKqIqrk5yaSsCbXteknNGmhkMFaF4gtl
+sPXyqAsCRmP7EZgciohRc/3UQPzv0jDYY/PkwsGrBh8fw59vSuxfO4ocrea1rHLNhw+Q/pEnQZfN
+IQXHvbXsJhVxjFqCIMtWbAOQ6zqK7dfPlGW+kUSg5+FPlJET9cMmsN0TNQQvBTbLgPYKMblxi8qO
+B5Y2keSRoCSvXAjQKRsoBEJr2AyP/4/oZuPtxgJBrzUBxsNSBjXQVTRaZm5XctXjPjhyzfoOX1Gk
+2hrmMvdjMAXzfxI//rJjecj4HXz7cGeDBnTDdDFJsgNc3sHzijMN4/b9si15YTEM7i8PXVgrWrJ2
+PEYYDBKBjxyV2tUmRR6+nj75ZriXzfR+0+Miy7bEI9o34qAT8y765A95SXZGWN7mrG1ZvF54lAKY
+0g==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+z02Dx1SdWg1bT0Te45xrk/KSWCORQ1vXnqVFy7e5ahpJTOUVsX6cfcTDg1I3G0A+oh/EZW25vdhf
+iV0XBbQyYLAfG9xMaUm9J1bG8ohPX/ruqxb2AyDjW+bEthqy2/qzBZ3/5VOAlP2P/l7MhN/ziiUe
+6njF0jX/0iqp90RHCdM=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object id="Object-1"><titulo>
+  <id>721025000</id>
+  <nro_remito>119303</nro_remito>
+  <tipo_remito>F</tipo_remito>
+  <cant_titulos_en_remito>1</cant_titulos_en_remito>
+  <nro_orden>1</nro_orden>
+  <nro_titulo>721025</nro_titulo>
+  <clase_titulo>A</clase_titulo>
+  <nro_expediente>2306000123620000000</nro_expediente>
+  <codigo_impuesto>551</codigo_impuesto>
+  <codigo_caracter>3</codigo_caracter>
+  <cuit_titulo>0</cuit_titulo>
+  <identificacion_impuesto>EWY777</identificacion_impuesto>
+  <nro_individual_complemento>EWY777</nro_individual_complemento>
+  <codigo_concepto>0</codigo_concepto>
+  <fecha_alta>2016-03-23</fecha_alta>
+  <tipo_titulo>C</tipo_titulo>
+  <fecha_liquidacion>2016-03-31</fecha_liquidacion>
+  <codigo_delegacion>555</codigo_delegacion>
+  <codigo_distrito>0</codigo_distrito>
+  <nro_resolucion_1>125123</nro_resolucion_1>
+  <anio_resolucion_1>2014</anio_resolucion_1>
+  <nro_resolucion_2>5645679</nro_resolucion_2>
+  <anio_resolucion_2>2013</anio_resolucion_2>
+  <nro_operativo>0</nro_operativo>
+  <ley_aplicable>10.397 Y SUS MODIFICATORIAS</ley_aplicable>
+  <codigo_actividad_IIBB>0</codigo_actividad_IIBB>
+  <nro_liquidacion>0</nro_liquidacion>
+  <marca_IIBB/>
+  <nomenclatura_catastral/>
+  <nro_inscripcion_catastral/>
+  <caracteristica/>
+  <valuacion_fiscal>0</valuacion_fiscal>
+  <superficie>0</superficie>
+  <descripcion_sellos/>
+  <codigo_marca_auto>RN01144</codigo_marca_auto>
+  <descripcion_marca_auto>RENAULT</descripcion_marca_auto>
+  <anio_modelo_auto>2005</anio_modelo_auto>
+  <descripcion_modelo_auto>CLIO2 1.2 AUTHE</descripcion_modelo_auto>
+  <descripcion_marca_motor_auto>RENAULT</descripcion_marca_motor_auto>
+  <descripcion_serie_motor_auto>RENAULT</descripcion_serie_motor_auto>
+  <nro_motor_auto>D4FG728Q003904</nro_motor_auto>
+  <codigo_tipo_auto>SD</codigo_tipo_auto>
+  <peso_auto>956</peso_auto>
+  <carga_auto>0</carga_auto>
+  <categoria_auto>2</categoria_auto>
+  <codigo_inciso_auto>A</codigo_inciso_auto>
+  <codigo_partido_auto>96</codigo_partido_auto>
+  <codigo_nacion_auto>1</codigo_nacion_auto>
+  <nombre_embarcacion/>
+  <codigo_matricula_embarcacion>          </codigo_matricula_embarcacion>
+  <eslora_embarcacion>0.00</eslora_embarcacion>
+  <manga_embarcacion>0.00</manga_embarcacion>
+  <puntal_embarcacion>0.00</puntal_embarcacion>
+  <fecha_construccion_embarcacion/>
+  <potencia_motor_embarcacion>0</potencia_motor_embarcacion>
+  <cantidad_motores_embarcacion>0</cantidad_motores_embarcacion>
+  <nro_motor_embarcacion/>
+  <descripcion_marca_embarcacion/>
+  <codigo_identificacion_embarcacion/>
+  <descripcion_arbola_embarcacion/>
+  <descripcion_modelo_motor_embarcacion/>
+  <tipo_motor_embarcacion/>
+  <codigo_actividad_agente>0</codigo_actividad_agente>
+  <impuesto_agente>0</impuesto_agente>
+  <tipo_regimen_agente/>
+  <tipo_multa_agente/>
+  <descripcion_actividad/>
+  <publicado_boletin_oficial/>
+  <tipo_proceso_concursal>0</tipo_proceso_concursal>
+  <nro_legajo_concursal>0</nro_legajo_concursal>
+  <nro_proceso_concursal>0</nro_proceso_concursal>
+  <clave_origen_caducidad/>
+  <nro_disposicion_normativa>161</nro_disposicion_normativa>
+  <anio_disposicion_normativa>160</anio_disposicion_normativa>
+  <importe_subtotal_original>0.000</importe_subtotal_original>
+  <importe_subtotal_intereses>0.00</importe_subtotal_intereses>
+  <importe_subtotal>10115.30</importe_subtotal>
+  <importe_total>135294.36</importe_total>
+  <importe_total_letras>CIENTO TREINTA Y CINCO MIL DOSCIENTOS NOVENTA Y CUATRO CON TREINTA Y SEIS CENTAVOS **************************</importe_total_letras>
+  <datos_de_impresion>
+    <documento_titular_impresion>D.N.I.11.111.111</documento_titular_impresion>
+    <observaciones_contribuyente>SON OBSERVACIONES QUE VAN EN EL IMPUESTO, COMO SALDRAN EN ESCRIBANIA LUEGO COMPARAMOS CON EL PAPEL.-</observaciones_contribuyente>
+    <observaciones_impuesto>CADUCIDAD: PLANES DE PAGO_Y OTRAS OBSERVACIONES CARGADAS EN EL SECTOR DE MULTAS, VEREMOS COMO APARECE EN ESCRIBANA (VER ANEXOS I ADJUNTOS)</observaciones_impuesto>
+    <descripcion_parte_1_impresion>MARCA RENAULT MODELO CLIO2 1.2 AUTHE AÑO 2005 TIPO SD NACION 1 RADICACION 96</descripcion_parte_1_impresion>
+    <descripcion_parte_2_impresion/>
+    <descripcion_alpie_impresion/>
+    <mensaje_concepto_deuda>CADUCIDAD</mensaje_concepto_deuda>
+    <mensaje_recargo_reliquidacion/>
+    <leyenda_auxiliar_2_impresion/>
+    <leyenda_auxiliar_3_impresion/>
+  </datos_de_impresion>
+  <domicilioFiscal>
+    <calle>AV. JUAN B. JUSTO</calle>
+    <nro>2476</nro>
+    <piso>PB</piso>
+    <depto>1</depto>
+    <localidad>SAN FERNANDO</localidad>
+    <id_localidad>1246</id_localidad>
+    <codigo_postal>1646</codigo_postal>
+    <id_provincia>2</id_provincia>
+    <provincia>BUENOS AIRES</provincia>
+  </domicilioFiscal>
+  <recargos_globales>
+    <porcentaje_art51>0</porcentaje_art51>
+    <monto_art51>0.00</monto_art51>
+    <leyenda_recargos/>
+  </recargos_globales>
+  <personas>
+    <cantidad_personas>1</cantidad_personas>
+    <persona>
+      <es_titular>T</es_titular>
+      <tipo_persona>F</tipo_persona>
+      <apellido>OBENAT</apellido>
+      <nombre>DANIEL</nombre>
+      <tipo_personeria_juridica/>
+      <nro_personeria_juridica/>
+      <sexo>M</sexo>
+      <cuit>20111111112</cuit>
+      <tipo_documento>6</tipo_documento>
+      <nro_documento>11111111</nro_documento>
+      <nacionalidad>ESCANDINAVAS</nacionalidad>
+      <nro_pasaporte/>
+      <fecha_nacimiento>1970-06-24</fecha_nacimiento>
+      <estado_civil>0</estado_civil>
+      <apellido_nombre_padres>APELLIDO Y NOMBRE DEL PADRE</apellido_nombre_padres>
+      <apellido_nombre_conyuge/>
+      <domicilios>
+        <cantidad_domicilios>1</cantidad_domicilios>
+        <domicilio>
+          <id_tipo_domicilio>2</id_tipo_domicilio>
+          <calle>CALLLEE  PARITCULAR AL FRENTE</calle>
+          <nro>1256</nro>
+          <nro_complemento/>
+          <cuerpo/>
+          <sector/>
+          <torre/>
+          <manzana/>
+          <piso/>
+          <depto/>
+          <barrio/>
+          <localidad>DIQUE N 1</localidad>
+          <id_localidad>1450</id_localidad>
+          <provincia>BUENOS AIRES</provincia>
+          <id_provincia>2</id_provincia>
+          <cpa/>
+          <codigo_postal>1900</codigo_postal>
+          <telefono>0</telefono>
+          <fax/>
+          <email/>
+        </domicilio>
+      </domicilios>
+    </persona>
+  </personas>
+  <deudas>
+    <cantidad_deudas>1</cantidad_deudas>
+    <deuda>
+      <tipo_deuda/>
+      <fecha_anio_cuota>780100</fecha_anio_cuota>
+      <fecha_deuda>2014-03-10</fecha_deuda>
+      <fecha_saldo>2014-03-10</fecha_saldo>
+      <importe_deuda>10074.7000</importe_deuda>
+      <indice_actualizacion>1.000</indice_actualizacion>
+      <importe_total>10115.30</importe_total>
+      <importe_monto_intereses>40.60</importe_monto_intereses>
+      <descripcion_deuda>PLANES DE PAGO</descripcion_deuda>
+      <semana_quincena/>
+      <contenido_linea_impresion>00/7801                                                                                                                                                     10.115,30</contenido_linea_impresion>
+    </deuda>
+  </deudas>
+  <multas>
+    <cantidad_multas>4</cantidad_multas>
+    <multa>
+      <tipo_multa>1</tipo_multa>
+      <fecha_multa>2009-09-09</fecha_multa>
+      <importe_multa>9009.0000</importe_multa>
+      <indice_multa>3.610</indice_multa>
+      <importe_total_multa>32522.49</importe_total_multa>
+      <porcentaje_multa>0</porcentaje_multa>
+      <contenido_linea_impresion>09/09/2009         9.009,0000           3,610           32.522,49</contenido_linea_impresion>
+    </multa>
+    <multa>
+      <tipo_multa>2</tipo_multa>
+      <fecha_multa>2010-10-10</fecha_multa>
+      <importe_multa>10010.0000</importe_multa>
+      <indice_multa>3.220</indice_multa>
+      <importe_total_multa>32232.20</importe_total_multa>
+      <porcentaje_multa>0</porcentaje_multa>
+      <contenido_linea_impresion>10/10/2010        10.010,0000           3,220           32.232,20</contenido_linea_impresion>
+    </multa>
+    <multa>
+      <tipo_multa>3</tipo_multa>
+      <fecha_multa>2011-11-11</fecha_multa>
+      <importe_multa>11011.0000</importe_multa>
+      <indice_multa>2.828</indice_multa>
+      <importe_total_multa>31139.11</importe_total_multa>
+      <porcentaje_multa>0</porcentaje_multa>
+      <contenido_linea_impresion>11/11/2011        11.011,0000           2,828           31.139,11</contenido_linea_impresion>
+    </multa>
+    <multa>
+      <tipo_multa>4</tipo_multa>
+      <fecha_multa>2012-12-12</fecha_multa>
+      <importe_multa>12012.0000</importe_multa>
+      <indice_multa>2.438</indice_multa>
+      <importe_total_multa>29285.26</importe_total_multa>
+      <porcentaje_multa>0</porcentaje_multa>
+      <contenido_linea_impresion>12/12/2012        12.012,0000           2,438           29.285,26</contenido_linea_impresion>
+    </multa>
+  </multas>
+  <plan_caduco>
+    <descripcion_global>PLAN DE PAGOS</descripcion_global>
+    <importe_global>-9784.10</importe_global>
+    <importe_deuda>331.20</importe_deuda>
+    <importe_total_pagos>10115.30</importe_total_pagos>
+    <deudas_plan_caduco>
+      <cantidad_deudas>4</cantidad_deudas>
+      <deuda_plan_caduco>
+        <descripcion_plan_incluido>PLAN DE PAGOS</descripcion_plan_incluido>
+        <descripcion_plan_impresion>PLAN DE PAGOS</descripcion_plan_impresion>
+        <periodo_deuda>201101</periodo_deuda>
+        <importe_deuda>90.20</importe_deuda>
+        <fecha_vencimiento>2011-01-13</fecha_vencimiento>
+        <indice_actualizacion>1.000</indice_actualizacion>
+        <importe_intereses>0.00</importe_intereses>
+        <importe_total_periodo>90.20</importe_total_periodo>
+      </deuda_plan_caduco>
+      <deuda_plan_caduco>
+        <descripcion_plan_incluido>PLAN DE PAGOS</descripcion_plan_incluido>
+        <descripcion_plan_impresion>PLAN DE PAGOS</descripcion_plan_impresion>
+        <periodo_deuda>201102</periodo_deuda>
+        <importe_deuda>90.20</importe_deuda>
+        <fecha_vencimiento>2011-05-11</fecha_vencimiento>
+        <indice_actualizacion>1.000</indice_actualizacion>
+        <importe_intereses>0.00</importe_intereses>
+        <importe_total_periodo>90.20</importe_total_periodo>
+      </deuda_plan_caduco>
+      <deuda_plan_caduco>
+        <descripcion_plan_incluido>PLAN DE PAGOS</descripcion_plan_incluido>
+        <descripcion_plan_impresion>PLAN DE PAGOS</descripcion_plan_impresion>
+        <periodo_deuda>201104</periodo_deuda>
+        <importe_deuda>90.20</importe_deuda>
+        <fecha_vencimiento>2011-09-12</fecha_vencimiento>
+        <indice_actualizacion>1.000</indice_actualizacion>
+        <importe_intereses>0.00</importe_intereses>
+        <importe_total_periodo>90.20</importe_total_periodo>
+      </deuda_plan_caduco>
+      <deuda_plan_caduco>
+        <descripcion_plan_incluido>PLAN DE PAGOS</descripcion_plan_incluido>
+        <descripcion_plan_impresion>PLAN DE PAGOS</descripcion_plan_impresion>
+        <periodo_deuda>201105</periodo_deuda>
+        <importe_deuda>60.60</importe_deuda>
+        <fecha_vencimiento>2011-11-11</fecha_vencimiento>
+        <indice_actualizacion>1.000</indice_actualizacion>
+        <importe_intereses>0.00</importe_intereses>
+        <importe_total_periodo>60.60</importe_total_periodo>
+      </deuda_plan_caduco>
+    </deudas_plan_caduco>
+    <pagos_plan_caduco>
+      <cantidad_pagos>19</cantidad_pagos>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2011-01-13</fecha_pago>
+        <importe_cuota_plan_abonado>257.60</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.891</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>744.70</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2011-05-11</fecha_pago>
+        <importe_cuota_plan_abonado>257.60</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.812</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>724.40</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2011-09-12</fecha_pago>
+        <importe_cuota_plan_abonado>257.60</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.731</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>703.50</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2011-11-11</fecha_pago>
+        <importe_cuota_plan_abonado>257.60</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.692</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>693.50</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2011-11-11</fecha_pago>
+        <importe_cuota_plan_abonado>29.60</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>1.000</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>29.60</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2012-01-12</fecha_pago>
+        <importe_cuota_plan_abonado>265.20</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.652</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>703.30</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2012-01-12</fecha_pago>
+        <importe_cuota_plan_abonado>92.80</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>1.000</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>92.80</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2012-05-14</fecha_pago>
+        <importe_cuota_plan_abonado>265.20</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.570</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>681.60</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2012-05-14</fecha_pago>
+        <importe_cuota_plan_abonado>92.80</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>1.000</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>92.80</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2012-07-16</fecha_pago>
+        <importe_cuota_plan_abonado>265.20</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.529</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>670.70</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2012-07-16</fecha_pago>
+        <importe_cuota_plan_abonado>92.80</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>1.000</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>92.80</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2012-09-12</fecha_pago>
+        <importe_cuota_plan_abonado>265.20</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.491</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>660.60</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2012-09-12</fecha_pago>
+        <importe_cuota_plan_abonado>53.00</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>1.000</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>53.00</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2012-11-13</fecha_pago>
+        <importe_cuota_plan_abonado>265.20</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.451</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>650.00</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2013-01-21</fecha_pago>
+        <importe_cuota_plan_abonado>314.80</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.399</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>755.20</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2013-05-13</fecha_pago>
+        <importe_cuota_plan_abonado>314.80</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.287</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>719.90</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2013-07-12</fecha_pago>
+        <importe_cuota_plan_abonado>314.80</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.228</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>701.40</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2013-09-12</fecha_pago>
+        <importe_cuota_plan_abonado>314.80</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.167</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>682.20</importe_pagado_actualizado>
+      </pago_plan_caduco>
+      <pago_plan_caduco>
+        <descripcion_plan_pago>PLAN DE PAGOS</descripcion_plan_pago>
+        <fecha_pago>2013-11-12</fecha_pago>
+        <importe_cuota_plan_abonado>314.80</importe_cuota_plan_abonado>
+        <coeficiente_liquidacion_cuota>2.107</coeficiente_liquidacion_cuota>
+        <importe_pagado_actualizado>663.30</importe_pagado_actualizado>
+      </pago_plan_caduco>
+    </pagos_plan_caduco>
+  </plan_caduco>
+</titulo></ds:Object></ds:Signature>
